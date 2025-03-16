@@ -1,0 +1,85 @@
+/* Estilo inspirado em Ben 10 */
+body {
+    background-color: #00f100;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: rgb(27, 136, 5);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    font-family: 'Comic Sans MS', cursive;
+    color: #dfdfdf;
+    margin: 0;
+}
+
+/* Centralizar a área de conteúdo */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap; /* Permite quebrar linha caso necessário */
+}
+
+/* Lista flexível */
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+/* Estilização dos itens da lista */
+li {
+    background: rgba(41, 39, 39, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s ease-in-out;
+    color: #fffdfd;
+}
+
+/* Efeito ao passar o mouse */
+li:hover {
+    transform: scale(1.05);
+}
+
+/* Estilização das imagens */
+img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    background-color: #007200;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+a:hover {
+    background-color: #005500;
+}
